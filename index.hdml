@@ -1,0 +1,90 @@
+YPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گلدون | هکینگ و ترس</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00FF00;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding-top: 50px;
+            overflow-y: scroll;
+        }
+        h1, h2 {
+            font-size: 3em;
+            color: #00FF00;
+            animation: glitch 1s infinite linear alternate-reverse;
+        }
+        p {
+            font-size: 1.5em;
+            color: #00FF00;
+            text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00;
+        }
+        .error {
+            color: red;
+            font-size: 2em;
+            font-weight: bold;
+            text-shadow: 0 0 10px red;
+        }
+        .code {
+            font-size: 1.5em;
+            color: #00FF00;
+            background-color: #111;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .danger-sign {
+            font-size: 2em;
+            color: red;
+            animation: shake 0.5s infinite alternate;
+        }
+        .logo {
+            font-size: 2em;
+            color: #40E0D0;
+            font-weight: bold;
+            text-shadow: 0 0 10px #40E0D0, 0 0 20px #40E0D0;
+        }
+        @keyframes glitch {
+            0% {
+                text-shadow: 2px 0 0 #00FF00, -2px 0 0 #00FF00;
+                transform: translate(0);
+            }
+            100% {
+                text-shadow: 2px 0 0 #00FF00, -2px 0 0 #00FF00;
+                transform: translate(-2px, 2px);
+            }
+        }
+        @keyframes shake {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>خوشششش اومدی رفییییق..</h1>
+    <h2>به  خوش اومدی آمدید!</h2>
+    <p>هشدار: عملیات به شدت خطرناک است. مسئولیت هرگونه آسیب به سیستم بر عهده شماست!</p>
+    
+    <div class="code">
+        <p>اینا هیچی نیست برو پایین:</p>
+        <p>01100101 01111000 01110010 01100001 01100000</p>
+        <p>10101101 01010101 1110000010101010010101010001101001001001011001010101010100101010101010101010101010010101010010010101010101010101010101010010101010101010101010 11010011 01101001</p>
+    </div>
+    
+    <div class="error">ERROR: قابلتو نداره برو پایین!</div>
+    
+    <p class="logo">GOLDON</p>
+    
+    <div class="danger-sign">⚠️ WARNING:  خطر خطر خطر  ⚠️</div>
+
+    <p>در حال پردازش کدهای خطرناک...</p>
+    <p>اگه میخای از اینجا بزنی بیرون یا سیپی بزن یا به این شماره کارت هرچی داری بده خدا خیرت بده :5859831229685713 به نام حمید رضا مولایی</body>
+</html>
